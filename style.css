@@ -26,33 +26,33 @@ body {
 
 @font-face {
     font-family: "atlas grotesk light";
-    src: url(/assets/fonts/AtlasGrotesk-Light.otf);
+    src: url('AtlasGrotesk-Light.otf');
 }
 
 @font-face {
     font-family: "atlas grotesk medium";
-    src: url(/assets/fonts/AtlasGrotesk-Medium.otf);
+    src: url('AtlasGrotesk-Medium.otf');
 }
 
 @font-face {
     font-family: "atlas grotesk regular";
-    src: url(/assets/fonts/AtlasGrotesk-Regular.otf);
+    src: url('AtlasGrotesk-Regular.otf');
 }
 
 
 @font-face {
     font-family: "atlas typewriter light";
-    src: url(/assets/fonts/AtlasTypewriter-Light.otf);
+    src: url('AtlasTypewriter-Light.otf');
 }
 
 @font-face {
     font-family: "atlas typewriter medium";
-    src: url(/assets/fonts/AtlasTypewriter-Medium.otf);
+    src: url('AtlasTypewriter-Medium.otf');
 }
 
 @font-face {
     font-family: "atlas typewriter regular";
-    src: url(/assets/fonts/AtlasTypewriter-Regular.otf);
+    src: url('AtlasTypewriter-Regular.otf');
 }
 
 
