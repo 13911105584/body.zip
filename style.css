@@ -25,33 +25,33 @@ body {
 /* Fonts */
 
 @font-face {
-    font-family: "atlas grotesk light";
+    font-family: atlas grotesk light;
     src: url('AtlasGrotesk-Light.otf');
 }
 
 @font-face {
-    font-family: "atlas grotesk medium";
+    font-family: atlas grotesk medium;
     src: url('AtlasGrotesk-Medium.otf');
 }
 
 @font-face {
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     src: url('AtlasGrotesk-Regular.otf');
 }
 
 
 @font-face {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     src: url('AtlasTypewriter-Light.otf');
 }
 
 @font-face {
-    font-family: "atlas typewriter medium";
+    font-family: atlas typewriter medium;
     src: url('AtlasTypewriter-Medium.otf');
 }
 
 @font-face {
-    font-family: "atlas typewriter regular";
+    font-family: atlas typewriter regular;
     src: url('AtlasTypewriter-Regular.otf');
 }
 
@@ -69,33 +69,33 @@ a:hover {
 }
 
 h1 {
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-size: 3.8rem;
     line-height: 2.8rem;
     color: #ebebeb;
 }
 
 h2 {
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-size: 1.4rem;
     color: #ebebeb; 
 }
 
 h3 {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 1.6rem;
     color: #ebebeb;
 }
 
 p {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 0.8rem;
     line-height: 1.8rem;
     color: #ebebeb;
 }
 
 ol {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 0.6rem;
     line-height: 1.1rem;
     color: pink;
@@ -145,7 +145,7 @@ ol {
     margin: auto;
     vertical-align: center;
     text-align: center;
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-size: 0.8rem;
     line-height: 1.4rem;
     color: #ebebeb;
@@ -194,28 +194,28 @@ ol {
   }  
     
     h1 {
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-size: 3.0rem;
     line-height: 2.4rem;
     color: #ebebeb;
   }
     
   h2 {
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-weight: 200;
     font-size: 1.2rem;
     color: #ebebeb;   
   }
     
   h3 {
-    font-family: "atlas typewriter regular";
+    font-family: atlas typewriter regular;
     font-size: 1.4rem;
     font-weight: 100;
     color: #ebebeb;
   }   
     
   p {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 0.8rem;
     line-height: 1.3rem;
     font-weight: 100;
@@ -223,7 +223,7 @@ ol {
   }
     
   ol {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 0.8rem;
     line-height: 1.3rem;
     font-weight: 100;
@@ -251,7 +251,7 @@ ol {
   }
   
   h1 {
-    font-family: "atlas grotesk medium";
+    font-family: atlas grotesk medium;
     font-weight: 500;
     font-size: 3.0rem;
     line-height: 2.4rem;
@@ -259,27 +259,27 @@ ol {
   }
     
   h2 {
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-weight: 200;
     font-size: 1.2rem;
     color: #ebebeb;   
   }
     
   h3 {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 1.4rem;
     color: #ebebeb;
   }   
     
   p {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 0.8rem;
     line-height: 1.4rem;
     color: #ebebeb;
   }
     
   ol {
-    font-family: "atlas typewriter light";
+    font-family: atlas typewriter light;
     font-size: 0.8rem;
     line-height: 1.3rem;
     color: pink;
@@ -297,7 +297,7 @@ ol {
     width: 95vw;
     margin-left: 1rem;
     margin-right: 1rem;
-    font-family: "atlas grotesk regular";
+    font-family: atlas grotesk regular;
     font-size: 0.6rem;
     color: #ebebeb;
 }
