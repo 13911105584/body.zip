@@ -1,0 +1,284 @@
+body {
+    background: #141414;   
+    vertical-align: center;
+}
+
+/* Header */
+.headerwrap {
+    position: fixed; 
+    top: 1rem;
+    width: 95vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #ebebeb;
+}
+
+.headleft {
+    float: left;
+}
+
+.headright {
+    float: right;
+}
+
+a {
+   color: #ebebeb;
+   text-decoration: none;
+}
+
+a:hover {
+   color: pink;
+   border-bottom: 2px solid pink;
+   padding-bottom: 3px;
+}
+
+h1 {
+    font-family: atlas grotesk;
+    font-weight: 500;
+    font-size: 3.8rem;
+    line-height: 2.8rem;
+    color: #ebebeb;
+}
+
+h2 {
+    font-family: atlas grotesk;
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: #ebebeb; 
+}
+
+h3 {
+    font-family: atlas typewriter;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: #ebebeb;
+}
+
+p {
+    font-family: atlas typewriter;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    font-weight: 100;
+    color: #ebebeb;
+}
+
+ol {
+    font-family: atlas typewriter;
+    font-size: 0.6rem;
+    line-height: 1.1rem;
+    font-weight: 100;
+    color: pink;
+}
+
+
+/* Span Classes */
+
+/*
+.underline {
+    border-bottom: 3px solid #ebebeb;
+    padding-bottom: 4px;
+}
+*/
+
+.emphasis {
+    color: pink;
+    font-weight: 400;
+}
+
+/* Flexbox Style Elements */
+
+/* Mobile */
+.container {
+  margin: 10rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.cell {
+    margin-bottom: 3rem;
+}
+
+.responsive-image {
+  max-width: 40%;
+}
+
+.cell img {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  vertical-align: center;
+}
+
+.caption {
+    display: block;
+    margin: auto;
+    vertical-align: center;
+    text-align: center;
+    font-family: atlas grotesk;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    color: #ebebeb;
+}
+
+.contentContainer {
+    width: 95%;
+    vertical-align: center;
+    margin: 10rem auto;
+    padding-top: 0.8rem;
+}
+
+.dotbox {
+    width: 60%;
+    vertical-align: center;
+    padding: 0.5rem;
+    border: 1px dotted pink;
+}
+
+.icon {
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    vertical-align: center;
+    max-width: 40%;
+}
+
+
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+  
+  .contentContainer {
+    width: 80%;
+    vertical-align: center;
+    margin: 6rem auto;
+    padding-top: 0.8rem;
+  }  
+    
+    h1 {
+    font-family: atlas grotesk;
+    font-weight: 500;
+    font-size: 3.0rem;
+    line-height: 2.4rem;
+    color: #ebebeb;
+  }
+    
+  h2 {
+    font-family: atlas grotesk;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #ebebeb;   
+  }
+    
+  h3 {
+    font-family: atlas typewriter;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #ebebeb;
+  }   
+    
+  p {
+    font-family: atlas typewriter;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    font-weight: 100;
+    color: #ebebeb;
+  }
+    
+  ol {
+    font-family: atlas typewriter;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    font-weight: 100;
+    color: pink;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: 6.2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+    
+  .cell {
+    width: calc(100% / 4);
+  }
+    
+  .contentContainer {
+    width: 50%;
+    vertical-align: center;
+    margin: 5rem auto;
+    padding-top: 0.8rem;
+  }
+  
+  h1 {
+    font-family: atlas grotesk;
+    font-weight: 500;
+    font-size: 3.0rem;
+    line-height: 2.4rem;
+    color: #ebebeb;
+  }
+    
+  h2 {
+    font-family: atlas grotesk;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #ebebeb;   
+  }
+    
+  h3 {
+    font-family: atlas typewriter;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #ebebeb;
+  }   
+    
+  p {
+    font-family: atlas typewriter;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    font-weight: 100;
+    color: #ebebeb;
+  }
+    
+  ol {
+    font-family: atlas typewriter;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    font-weight: 100;
+    color: pink;
+  }
+}
+
+
+
+
+
+/* Footer */
+.footerwrap {
+    position: fixed;
+    bottom: 1rem;
+    width: 95vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: atlas grotesk;
+    font-size: 0.6rem;
+    color: #ebebeb;
+}
+
+.footleft {
+    float: left;
+}
+
+.footright {
+    float: right;
+}
