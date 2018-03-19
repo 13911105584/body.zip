@@ -136,13 +136,14 @@ ol {
 .cell img {
   display: block;
   margin: auto;
-  padding: 1rem;
+  padding: 1.66rem;
   vertical-align: center;
+  border: 1px dotted pink;
 }
 
 .caption {
     display: block;
-    margin: auto;
+    margin: 1remauto;
     vertical-align: center;
     text-align: center;
     font-family: atlas grotesk regular;
